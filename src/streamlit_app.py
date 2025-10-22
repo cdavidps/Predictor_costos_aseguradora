@@ -16,7 +16,7 @@ st.markdown("Modelo de Random Forest para estimar el gasto anual de póliza.")
 
 # Definir la URL de la API de FastAPI que se desplegará en Render
 # NOTA: Reemplazar 'YOUR_RENDER_URL' con la URL real de tu API de Render (Paso 2)
-API_URL = "https://predictor-costos-aseguradora.onrender.com" # Temporalmente local
+API_URL = "https://predictor-costos-aseguradora.onrender.com/predict_cost" # Temporalmente local
 
 # ----------------------------------------------------
 # 2. FORMULARIO DE ENTRADA DE DATOS
@@ -80,4 +80,5 @@ if submitted:
     except requests.exceptions.ConnectionError:
         st.error("Error de Conexión. Asegúrate de que la API de FastAPI esté desplegada y la URL sea correcta.")
     except Exception as e:
+
         st.error(f"Ocurrió un error inesperado: {e}")
