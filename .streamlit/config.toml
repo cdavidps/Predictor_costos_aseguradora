@@ -1,0 +1,5 @@
+
+[general]
+# Especifica la versión de Python para la compatibilidad con todas las librerías.
+# Usamos 3.9 para asegurar que Streamlit Cloud no use 3.13.
+pythonVersion = "3.9"
