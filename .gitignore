@@ -1,0 +1,15 @@
+# .gitignore
+
+# Entornos virtuales y Conda
+venv/
+.conda/
+__pycache__/
+
+# Archivos de Jupyter/Colab
+*.ipynb_checkpoints
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de bases de datos temporales
+*.db
