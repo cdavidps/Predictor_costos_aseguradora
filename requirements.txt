@@ -1,4 +1,4 @@
-streamlit==1.18.1
+streamlit==1.29.0
 fastapi
 uvicorn
 pydantic
@@ -7,4 +7,5 @@ numpy
 seaborn
 scikit-learn
 joblib
+
 
